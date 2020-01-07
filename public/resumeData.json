@@ -19,14 +19,14 @@
     "social":[
       {
         "name":"facebook",
-        "url":"",
+        "url":"/",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
         "url":"http://twitter.com",
         "className":"fa fa-twitter"
-      },,
+      },
       {
         "name":"linkedin",
         "url":"www.linkedin.com/in/fatima-ezzahrae-el-hammoumi",
@@ -75,8 +75,8 @@
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"PHP",
+        "level":"70%"
       },
       {
         "name":"ReactJs",
@@ -91,8 +91,8 @@
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"Magento",
+        "level":"60%"
       },
       {
         "name":"MongoDB",
