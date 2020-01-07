@@ -18,16 +18,6 @@
     "resumedownload":"zfaty.github.io/my-resume",
     "social":[
       {
-        "name":"facebook",
-        "url":"/",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
         "url":"http://linkedin.com/in/fatima-ezzahrae-el-hammoumi",
         "className":"fa fa-linkedin"
@@ -71,11 +61,15 @@
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"PHP",
+        "level":"77%"
+      },
+      {
+        "name":"Magento",
         "level":"60%"
       },
       {
-        "name":"PHP",
+        "name":"Mydql",
         "level":"70%"
       },
       {
@@ -84,19 +78,15 @@
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"60%"
       },
       {
         "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"Magento",
-        "level":"60%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Git",
+        "level":"75%"
       }
     ]
   },
