@@ -43,7 +43,7 @@
 	sections.waypoint({
 
       handler: function(event, direction) {
-
+         var navigation_links = $("#nav-wrap a");
 		   var active_section;
 
 			active_section = $(this);
