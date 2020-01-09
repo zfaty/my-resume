@@ -1,21 +1,28 @@
 {
   "main": {
+    "topmenu":[
+      {"key":"home","name":"Accueil","liClassName":"current"},
+      {"key":"about","name":"À propos"},
+      {"key":"resume","name":"Parcours"},
+      {"key":"portfolio","name":"Projets"},
+      {"key":"testimonials","name":"Recommandations"}
+    ],
     "name":"Fatima ezzahrae Elahammoumi",
-    "occupation":"Web Developer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "occupation":"Ingénieur d'études et de développement",
+    "description":"Ne me jugez pas sur mes succès, jugez-moi sur le nombre de fois où je suis tombé et où je me suis relevé à nouveau. --- Nelson Mandela",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Esprit professionnel, polyvalence, ponctualité, rigueur. S'adapte à l'environnement du travail pour innover, Passionné depuis toujours par les nouvelles technologies, je suis en constante veille.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "fz.elhammoumi+pro@gmail.com",
+    "phone": "",
     "address":{
-      "street":"(Your Street)",
+      "street":"",
       "city":"Rabat",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "state":"",
+      "zip": ""
     },
     "website": "zfaty.github.io",
-    "resumedownload":"zfaty.github.io/my-resume",
+    "resumedownload":"",
     "social":[
       {
         "name":"linkedin",
@@ -30,51 +37,76 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"FST Settat",
+        "degree":"Master Professionnelle. Ingénierie de Conception et de Développement d'Applications",
+        "graduated":"2018",
+        "description":""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Université Moulay Ismail Meknès",
+        "degree":"Licence professionnel. Gestion informatisée des organisation",
+        "graduated":"2012 - 2013",
+        "description":""
+      },{
+        "school":"Ecole supérieure de technologie Meknés",
+        "degree":"DUT Genie informatique",
+        "graduated":"2010 - 2012",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Netik Maroc - AlizNet Group, Rabat",
+        "title":"Ingénieur d'études et de développement PHP/E Commerce",
+        "years":"Janv. 2019 – Aujourd’hui",
+        "description":""
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Magic OnLine, Casablanca",
+        "title":"Ingénieur d'études et de développement PHP",
+        "years":"Mars 2017 – Janv. 2019",
+        "description":""
+      },
+      { 
+        "company":"AppSoft LAB, Meknés",
+        "title":"Développeuse full stack",
+        "years":"Mars 2014 – Mars 2017",
+        "description":""
+      },
+      {
+        "company":"FuturStep, Meknés",
+        "title":"Développeuse Web PHP",
+        "years":"Nov. 2013 – Mars 2014",
+        "description":""
       }
     ],
     "skills":[
       {
         "name":"PHP",
-        "level":"77%"
+        "level":"80%"
       },
       {
         "name":"Magento",
         "level":"60%"
       },
       {
-        "name":"Mydql",
+        "name":"Cakephp 2",
+        "level":"70%"
+      },
+      {
+        "name":"Mysql",
         "level":"70%"
       },
       {
         "name":"ReactJs",
         "level":"50%"
+      },
+      {
+        "name":"Javascript",
+        "level":"66%"
       },
       {
         "name":"CSS",
@@ -88,51 +120,60 @@
         "name":"Git",
         "level":"75%"
       }
+    ],
+    "certifications":[
+      {
+        "name" :"Magento 2 Associate Developer",
+        "authority" :"Magento, an Adobe Company",
+        "date" :"2019",
+        "url" :"https://u.magento.com/certification/directory/dev/3288018/",
+        "logo":"middle_associate_developer_m2.png"
+      }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Electroplanet.ma",
+        "category":"Magento 2",
+        "image":"www.electroplanet.ma_.png",
+        "url":"https://www.electroplanet.ma"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Fedd.fm Music API",
+        "category":"API avec zend php et backboneJs",
+        "image":"feed.fm_.png",
+        "url":"http://feed.fm"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"YourListen.com provides a cloud based music and sound hosting service",
+        "category":"Cakephp",
+        "image":"yourlisten.com_.png",
+        "url":"http://yourlisten.com"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Enrou.co is an ecommerce website based on Shopify",
+        "category":"Integtartion de theme sur Shopify",
+        "image":"enrou.co_.png",
+        "url":"http://enrou.co"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Skunkus.com Production company based in Los Angeles,",
+        "category":"PHP, Drupal 6",
+        "image":"skunkus.com_.png",
+        "url":"http://skunkus.com"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"En 2 mots, Rigueur et Efficacité, c'est ainsi que je décrit le parcours de Mlle EL HAMMOUMI au sein de notre établissement.",
+        "user":"Said Elmouadin - Magic Online"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Fatima Ezzahrae is a true talent when it comes to everything code. Her passion and drive to not only deliver on the project, but to exceed is very rare. She approaches every situation with an entrepreneurial perspective, with focus on ROI. I worked alongside her as a project manager for over a year, and she was beyond helpful in so many ways. Her work serious and is very punctual about deadlines/tasks. She has the vision and the knowledge to tackle any problem and find an stable practical yet elegant solution.",
+        "user":"Amine EL Majdoubi - AppSoft Lab"
       }
     ]
   }

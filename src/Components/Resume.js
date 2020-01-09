@@ -20,14 +20,36 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+      var certifications = this.props.data.certifications.map(function(certification){
+        var logo = "images/"+certification.logo;
+        return <div className="row" key={certification.name}>
+          <div  className="nine columns main-col">
+            <h3><a href={certification.url}  target="_blank">{certification.name}</a></h3>
+            <p className="info">{certification.authority}<span>&bull;</span> <em className="date">{certification.date}</em></p>
+          </div>
+          <div  className="three columns">
+            <a href={certification.url} target="_blank"><img className="profile-pic"  src={logo} alt={certification.name} /></a>
+          </div>
+        </div>
+    })
     }
 
     return (
       <section id="resume">
 
+      <div className="row work">
+        <div className="three columns header-col">
+          <h1><span>EXPÉRIENCE</span></h1>
+        </div>
+
+        <div className="nine columns main-col">
+        {work}
+        </div>
+      </div>
+
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Formation</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -38,25 +60,19 @@ class Resume extends Component {
             </div>
          </div>
       </div>
-
-
-      <div className="row work">
-
-         <div className="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-          {work}
+      <div className="row certifications">
+        <div className="three columns header-col">
+          <h1><span>Certifications</span></h1>
         </div>
-    </div>
 
-
-
+        <div className="nine columns main-col">
+        {certifications}
+        </div>
+      </div>
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Compétences</span></h1>
          </div>
 
          <div className="nine columns main-col">
